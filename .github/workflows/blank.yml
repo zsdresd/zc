@@ -3,7 +3,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron:  '* */6 * * *'
+    - cron:  '0 */6 * * *'
 jobs:
   GoogleDrive:
     runs-on: ubuntu-latest
