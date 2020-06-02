@@ -1,4 +1,4 @@
-name: Ubuntu
+name: GoogleDrive转存
 on:
   watch:
     types: started
