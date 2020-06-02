@@ -8,6 +8,4 @@ jobs:
     steps:
     - name: SSH connection to Actions
       run: |
-      curl https://raw.githubusercontent.com/damifen/-/master/g.sh | sudo bash
-      cd /root
-      gclone copy gc:{0AI8YD2yDOlxhUk9PVA} gc:{0AEcXDCocKCHxUk9PVA}  --drive-server-side-across-configs --transfers=20
+      curl https://raw.githubusercontent.com/zsdresd/sh/master/a.sh | sudo bash
