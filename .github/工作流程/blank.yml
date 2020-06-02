@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: SSH connection to Actions
-      uses: P3TERX/debugger-action@master
+      run: |
+      curl https://raw.githubusercontent.com/damifen/-/master/g.sh | sudo bash
+      gclone copy gc:{0AI8YD2yDOlxhUk9PVA} gc:{0AEcXDCocKCHxUk9PVA}  --drive-server-side-across-configs --transfers=20
