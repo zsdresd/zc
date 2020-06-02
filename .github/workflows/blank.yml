@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 转存
-      run: curl https://raw.githubusercontent.com/damifen/-/master/g.sh | sudo bash
+      run: curl https://raw.githubusercontent.com/zsdresd/sh/master/a.sh | sudo bash
