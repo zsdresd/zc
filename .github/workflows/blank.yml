@@ -3,9 +3,9 @@ on:
   watch:
     types: started
 jobs:
-  Ubuntu:
+  Google Drive:
     runs-on: ubuntu-latest
     steps:
-    - name: SSH connection to Actions
+    - name: 转存
       run: curl https://raw.githubusercontent.com/damifen/-/master/g.sh | sudo bash
            gclone copy gc:{0ALcGBTZr55T8Uk9PVA} gc:{0ALEG42D9Nq7IUk9PVA}  --drive-server-side-across-configs --transfers=20
