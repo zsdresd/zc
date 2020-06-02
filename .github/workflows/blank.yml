@@ -2,7 +2,7 @@ name: GoogleDrive转存
 on:
   watch:
     types: started
-    schedule:
+  schedule:
     - cron:  '* */6 * * *'
 jobs:
   GoogleDrive:
