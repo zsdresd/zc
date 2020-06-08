@@ -1,12 +1,12 @@
-name: GoogleDrive转存
+name: GDzc
 on:
   watch:
     types: started
   schedule:
     - cron:  '0 */6 * * *'
 jobs:
-  GoogleDrive:
+  GD:
     runs-on: ubuntu-latest
     steps:
-    - name: 转存
+    - name: zc
       run: curl https://raw.githubusercontent.com/zsdresd/sh/master/a.sh | sudo bash
