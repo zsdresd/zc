@@ -13,9 +13,9 @@ do
  if [ ! -f "url$value1$value2" ];then
   break
  else
-  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j1024 --auto-file-renaming=false --allow-overwrite=false
-  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j1024 --auto-file-renaming=false --allow-overwrite=false
-  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j1024 --auto-file-renaming=false --allow-overwrite=false
+  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j128 --auto-file-renaming=false --allow-overwrite=false
+  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j128 --auto-file-renaming=false --allow-overwrite=false
+  aria2c -c -iurl$value1$value2 -d/root/$num -x4 -s4 -j128 --auto-file-renaming=false --allow-overwrite=false
   zip -r $num-$bnum.zip /root/$num
  fi
  if  [ $num >= 1 ] && [ $num < 300000 ] ; then
