@@ -3,7 +3,7 @@ function up()
 fclone move /root/$1 gc:{$3}/$1-$2 --ignore-existing --stats=1s --stats-one-line --checkers=64 --transfers=64 --drive-pacer-min-sleep=1ms --check-first
 }
 arr=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z")
-num=4
+num=1
 for value1 in ${arr[@]}
 do
 for value2 in ${arr[@]}
