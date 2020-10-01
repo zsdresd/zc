@@ -9,6 +9,11 @@ do
 for value2 in ${arr[@]}
 do
  ((bnum=$num+9999))
+ if [ ! -d "/root/$num" ];then
+  echo c
+ else
+  continue
+ fi
  if [ ! -f "url$value1$value2" ];then
   break
  else
