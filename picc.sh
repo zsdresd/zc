@@ -12,6 +12,7 @@ do
  if [ ! -d "/root/$num" ];then
   echo c
  else
+  ((num+=10000))
   continue
  fi
  if [ ! -f "url$value1$value2" ];then
