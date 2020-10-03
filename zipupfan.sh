@@ -1,6 +1,6 @@
 function up() 
 { 
-fclone move /root/$1 gc:{$3}/$1-$2 --ignore-existing --stats=1s --stats-one-line --checkers=64 --transfers=64 --drive-pacer-min-sleep=1ms --check-first
+fclone move /root/$1 gc:{$3}/$1-$2 --ignore-existing --stats=1s --stats-one-line --checkers=512 --transfers=512 --drive-pacer-min-sleep=1ms --check-first
 fclone move /root/$1-$2.zip gc:{$3} --ignore-existing --stats=1s --stats-one-line --checkers=64 --transfers=64 --drive-pacer-min-sleep=1ms --check-first
 }
 arr=("a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z")
